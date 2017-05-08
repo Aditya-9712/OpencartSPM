@@ -89,20 +89,21 @@ label {
 }
 #content {
 	margin-bottom: 25px;
-	overflow: hide;	
+	overflow: hide;
 	border: 1px solid #E5E5E5;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-left: 30%;
+	margin-left: 0%;
 }
 
 #contenthome {
 	min-height: 400px;
 	margin-bottom: 25px;
-	overflow: hide;	
+	overflow: hide;
 }
 #column-left + #column-right + #content, #column-left + #content {
-	margin-left: 25%;
+
+	margin-left: 0%;
 	border: 1px solid #E5E5E5;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -161,9 +162,11 @@ label {
 }
 #header #cart {
 	position: absolute;
-	top: 88px;
+	top: 120px;
 	right: 9px;
-	min-width: 300px;
+	min-width: 50px;
+
+
 }
 #header #cart .heading {
 	float: right;
@@ -182,7 +185,7 @@ label {
     text-decoration: none;
     text-transform: uppercase;
 	z-index: 999999;
-	line-height: 55px;
+	line-height: 0px;
 }
 #header #cart .heading a {
 	color: #38B0E3;
@@ -198,8 +201,8 @@ label {
 	position: relative;
 	top: -1px;
 	padding: 8px;
-	min-height: 130px;
-	border: 1px #E5E5E5 solid; 
+	min-height: 10px;
+	border: 1px #E5E5E5 solid;
 	background: #FFF;
 	z-index: 999999;
 	margin-right: 10px;
@@ -263,7 +266,7 @@ label {
 	clear: both;
 }
 #header #cart .empty {
-	margin-top: 0px; 
+	margin-top: 0px;
 	padding-top: 50px;
 	text-align: center;
 }
@@ -363,7 +366,7 @@ label {
 #menu > ul > li {
 	position: relative;
 	float: left;
-	z-index: 20;	
+	z-index: 20;
 }
 #menu > ul > li:hover {
 /*	background-image: url("../image/menu_active.png");*/
@@ -383,7 +386,7 @@ background: #bc3c4a;
 }
 #menu > ul > li:hover a {
 	color: #FFFFFF;
-}	
+}
 #menu > ul > li:hover li a {
 	color: #1B1F23;
 }
@@ -650,14 +653,14 @@ a.button:hover, input.button:hover {
 	margin-right: auto;
 }
 .htabs {
-	height: 30px;		
+	height: 30px;
 	line-height: 16px;
-	border-bottom: 1px solid #DDDDDD;	
+	border-bottom: 1px solid #DDDDDD;
 }
 .htabs a {
 	border-top: 1px solid #DDDDDD;
 	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD; 
+	border-right: 1px solid #DDDDDD;
 	padding: 7px 15px 6px 15px;
 	float: left;
 	font-family: Arial, Helvetica, sans-serif;
@@ -690,7 +693,7 @@ a.button:hover, input.button:hover {
 .box .box-heading {
 	padding: 8px 10px 7px 0px;
 	font-family: BebasNeue, Arial, sans-serif;
-	color: #1B1F23;	
+	color: #1B1F23;
 	font-size: 20px;
     text-transform: uppercase;
 }
@@ -719,7 +722,7 @@ a.button:hover, input.button:hover {
 }
 .box-product > div:first-child {
 	border-left: medium none;
-}	
+}
 
 #column-left + #column-right + #content .box-product > div {
 	width: 119px;
@@ -914,7 +917,7 @@ ul.box-filter, ul.box-filter ul {
 	padding: 0;
 }
 ul.box-filter span {
-	border-bottom: 1px solid #EEEEEE;	
+	border-bottom: 1px solid #EEEEEE;
 	display: block;
 	padding-bottom: 5px;
 	margin-bottom: 8px;
@@ -1063,7 +1066,7 @@ ul.box-filter > li ul {
 	text-align: right;
 	color: #333333;
 	font-size: 12px;
-	
+
 	 color: #3B3B3B;
     font-family: BebasNeue,Arial,sans-serif;
     font-size: 18px;
@@ -1120,7 +1123,7 @@ ul.box-filter > li ul {
 	text-align: center;
 }
 .product-grid .image img {
-	
+
 }
 .product-grid .name a {
 	color: #3B3B3B;
@@ -1200,7 +1203,7 @@ ul.box-filter > li ul {
 	text-align: center;
 }
 .product-related .image img {
-	
+
 }
 .product-related .name a {
 	color: #3B3B3B;
@@ -1320,7 +1323,7 @@ ul.box-filter > li ul {
 	text-decoration: line-through;
 }
 .product-info .price-new {
-	
+
 }
 .product-info .price-tax {
 	font-size: 12px;
@@ -1838,7 +1841,7 @@ ul.box-filter > li ul {
 	float: left;
 	width: 48%;
 }
-/* footer social network */ 
+/* footer social network */
 #footer-social-icons {
     float: left;
     margin: 14px 0 0 20px;
@@ -1855,14 +1858,14 @@ ul.box-filter > li ul {
 }
 #footer-social-icons a:hover{
 	opacity: 1;
-}	
+}
 #footer-icons-vimeo {
     background-position: -48px 0 !important;
 }
 #footer-icons-twitter {
     background-position: -24px 0 !important;
 }
-/* footer */ 
+/* footer */
 #footer {
     background: none repeat scroll 0 0 #000000;
     color: #FFFFFF;
@@ -1888,7 +1891,7 @@ ul.box-filter > li ul {
 }
 #footer .column:first-child {
 	border-left: medium none;
-}	
+}
 #footer .column ul {
 	margin-top: 0px;
 	padding-left: 33px;
